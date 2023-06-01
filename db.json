@@ -301,10 +301,6 @@
             "answer": "答案：data"
         },
         {
-            "question": "setData()函数用于将数据从逻辑层发送到视图层，同步改变对应的 this.data 的值。</br>A. 正确 B. 错误",
-            "answer": "答案：错误"
-        },
-        {
             "question": "setData()函数用于将数据从逻辑层发送到视图层，同步改变对应的this.data的值（</br>A:正确 B:错误",
             "answer": "答案：正确"
         },
@@ -682,15 +678,15 @@
         },
         {
             "question": "API函数wx.chooseImage(Object object)用于选择图片，图片来源只能从本地相册选择。 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
+            "answer": "答案：错误"
         },
         {
             "question": "API函数wx.chooseImage(Object object)用于选择图片，图片来源既可以从本地相册选择，也可以使用相机拍照。 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
+            "answer": "答案：正确"
         },
         {
             "question": "调用wx.switchTab跳转到 tabBar 页面时，路径可以带参数 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
+            "answer": "答案：错误"
         },
         {
             "question": "小程序使用以下哪种函数可以跳转到指定的tabBar页面,并关闭其他页面。 (单选题) 2分</br> A. wx.navigateTo(OBJECT)  B. wx.navigateBack(OBJECT)  C. wx.reLaunch(OBJECT)  D. wx.switchTab(OBJECT)",
@@ -710,7 +706,7 @@
         },
         {
             "question": "进度条progress组件,可以显示进度,设置一个目前正处于50%刻度的进度条代码如何写:__(1)__。 (填空题) 2分</br>请输入第1空答案",
-            "answer": "答案："
+            "answer": "答案：progress percent='50'"
         },
         {
             "question": "页面在tab栏中，可以使用的跳转方法是。（ ） (单选题) 2分</br> A. wx.navigateTo  B. wx.redirectTo  C. wx.switchTab  D. 以上都是",
@@ -813,14 +809,6 @@
             "answer": "答案：2"
         },
         {
-            "question": "当me页面显示时点击“切后台”按钮，首先执行me.js文件中的onHide函数，然后再执行app.js文件中的onHide函数 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "当页面由index切换到me时，首先执行index.js文件中的onHide函数，然后再执行me.js文件中的onLoad函数。（ ） (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
             "question": "页面绑定数据的初始值由（ ）提供？ (单选题) 2分</br> A. data  B. onLoad  C. onShow  D. onReady",
             "answer": "答案：data  "
         },
@@ -885,10 +873,6 @@
             "answer": "答案：font-weight"
         },
         {
-            "question": "在微信小程序中，利用（ ）属性设置字体大小。 (单选题) 2分</br> A. font-family  B. font-style  C. font-weight  D. font-size",
-            "answer": "答案："
-        },
-        {
             "question": "在微信小程序中，利用（ ）属性设置字体类型。 (单选题) 2分</br> A. font-family  B. font-style  C. font-weight  D. font-size",
             "answer": "答案： font-size"
         },
@@ -925,22 +909,6 @@
             "answer": "答案：编辑器 "
         },
         {
-            "question": "有了AppID就可以发布微信小程序了 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "发布微信小程序时必须有AppID (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "AppID不是开发小程序所必需的 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "可以使用已有的微信订阅号账号作为微信小程序的账号 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
             "question": "查看AppID的位置是在“开发”项目中的：（ ） (单选题) 2分</br> A. 运维中心  B. 开发设置  C. 开发者工具  D. 接口设置",
             "answer": "答案：开发设置 "
         },
@@ -955,18 +923,6 @@
         {
             "question": "定义模板时，要使用（ ）属性作为模板的名字。 (单选题) 2分</br> A. data  B. name  C. is  D. import",
             "answer": "答案：name  "
-        },
-        {
-            "question": "事件可以绑定在组件上，当触发事件，就会执行逻辑层中对应的事件处理函数。事件对象可以携带额外信息，如 id, dataset, touches。 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "事件是视图层到逻辑层的通讯方式，它可以将用户的行为反馈到视图层进行处理。 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
-            "question": "setData()函数用于将数据从逻辑层发送到视图层，同步改变对应的 this.data 的值。 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
         },
         {
             "question": "当image组件的mode值等于（ ）时，不缩放图片，只显示图片的右下边区域。 (单选题) 2分</br> A. top left  B. top right  C. bottom left  D. bottom right",
@@ -1245,10 +1201,6 @@
             "answer": "答案：radio-group组件有bindchange属性"
         },
         {
-            "question": "在index页面文件夹中添加a.wxml文件，那么a.wxml文件不能使用在index.wxss文件中定义样式 (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
-        },
-        {
             "question": "（ ）可以将该引用文件中除了template和wxs 之外的整个代码引入，相当于将目标文件中的代码拷贝到引用的位置。 (单选题) 2分</br> A. include  B. name  C. src  D. import",
             "answer": "答案：include  "
         },
@@ -1259,10 +1211,6 @@
         {
             "question": "WXML 提供两种文件引用方式：import和（） (单选题) 2分</br> A. data  B. name  C. src  D. include",
             "answer": "答案：include"
-        },
-        {
-            "question": "假设有3个WXML文件A、B和C，C import B，B import A，在C中可以使用B定义的template，在B中可以使用A定义的template，但是C不能使用A定义的template (判断题) 2分</br> A. 正确 B. 错误",
-            "answer": "答案："
         },
         {
             "question": "利用（ ）可以引用目标文件中定义的template。 (单选题) 2分</br> A. data  B. name  C. is  D. import",
