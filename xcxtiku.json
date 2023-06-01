@@ -1,0 +1,626 @@
+{
+    "text": [
+        {
+            "question": "查看AppID的位置是在“开发”项目中的：（  ）</br>A.运维中心 B.开发设置 C.开发者工具 D.接口设置",
+            "answer": "答案：开发设置"
+        },
+        {
+            "question": "可以使用已有的微信订阅号账号作为微信小程序的账号</br>A.正确 B.错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "AppID不是开发小程序所必需的</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "发布微信小程序时必须有AppID</br>A.正确 B.错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "有了AppID就可以发布微信小程序了</br>A. 正确 B. 错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "编写小程序代码是在微信开发者工具的（  ）窗口中进行的？</br>A.模拟器 B.编辑器 C.调试器 D.Console面板",
+            "answer": "答案：编辑器"
+        },
+        {
+            "question": "编译小程序时，既可以通过“编译”按钮来实现，还可以通过（   ）快捷键来实现？</br>A.Ctrl + A B.Ctrl + C C.Ctrl + S D.Ctrl + V",
+            "answer": "答案：Ctrl + S"
+        },
+        {
+            "question": "一个小程序页面一般包含4个文件，其中逻辑层文件是（   ）。</br>A.WXML B.WXSS C.JS D.JSON",
+            "answer": "答案：JS"
+        },
+        {
+            "question": "小程序编译出现错误信息时，该信息一般都显示在（  ）面板？</br>A.Console B.Sources C.Network D.Security",
+            "answer": "答案：Console"
+        },
+        {
+            "question": "在WXML文件中，通过（ ）属性直接设置组件样式。</br>A.style B.class C.import D.include",
+            "answer": "答案：style"
+        },
+        {
+            "question": "在WXML文件中，通过（  ）属性引用在WXSS文件中定义的样式。</br>A.style B.class C.import D.include",
+            "answer": "答案：class"
+        },
+        {
+            "question": "在小程序中，index页面样式在（    ）文件中定义。</br> A.index.json B.index.wxss C.index.wxml D.index.js",
+            "answer": "答案：index.wxss"
+        },
+        {
+            "question": "在index.wxml中除了引用在index.wxss中定义的样式外，还可以引用在（    ）文件中定义的全局样式。</br> A.app.json B.app.wxss C.app.wxml D.app.js",
+            "answer": "答案：app.wxss"
+        },
+        {
+            "question": "在微信小程序中，利用（   ）属性设置字体类型。</br>A.font-family B.font-style C.font-weight D.font-size",
+            "answer": "答案：font-family"
+        },
+        {
+            "question": "在微信小程序中，利用（    ）属性设置字体大小。</br>A.font-family B.font-style C.font-weight D.font-size",
+            "answer": "答案：font-size"
+        },
+        {
+            "question": "在微信小程序中，利用（  ）属性设置字体加粗。</br>A.font-family B.font-style C.font-weight D.font-size",
+            "answer": "答案：font-weight"
+        },
+        {
+            "question": "在微信小程序中，利用（   ）属性设置字体倾斜</br>A.font-family B.font-style C.font-weight D.font-size",
+            "answer": "答案：font-style"
+        },
+        {
+            "question": "在微信小程序中，利用（  ）属性设置首行缩进</br> A.color B.text-align C.text-indent D.letter-spacing",
+            "answer": "答案：text-indent"
+        },
+        {
+            "question": "在微信小程序中，利用（ ）属性设置字符间距</br>A.color B.text-align C.text-indent D.letter-spacing",
+            "answer": "答案：letter-spacing"
+        },
+        {
+            "question": "在微信小程序中，利用（   ）属性设置文本颜色。</br>A.color B.text-align C.text-indent D.letter-spacing",
+            "answer": "答案：color"
+        },
+        {
+            "question": "在微信小程序中，利用（   ）属性设置文本水平对齐方式</br>A.color B.text-align C.text-indent D.letter-spacing",
+            "answer": "答案：text-align"
+        },
+        {
+            "question": "在微信小程序中，利用（   ）属性设置单词间距。</br>A.word-spacing B.white-space C.text-decoration D.text-decoration-color",
+            "answer": "答案：word-spacing"
+        },
+        {
+            "question": "在微信小程序中，利用（  ）属性设置文本下划线。</br>A.word-spacing B.white-space C.text-decoration D.text-decoration-color",
+            "answer": "答案：text-decoration"
+        },
+        {
+            "question": "在微信小程序中，利用（  ）属性设置文本下划线的颜色。</br>A.word-spacing B.white-space C.text-decoration D.text-decoration-color",
+            "answer": "答案：text-decoration-color"
+        },
+        {
+            "question": "小程序中的App(Object object)函数用于（  ）</br>A.小程序注册 B.小程序注销 C.页面注册 D.页面注销",
+            "answer": "答案：小程序注册"
+        },
+        {
+            "question": "页面中的Page(Object object) 函数用于（  ）</br>A.小程序注册 B.小程序注销 C.页面注册 D.页面注销",
+            "answer": "答案：页面注册"
+        },
+        {
+            "question": "小程序运行后，执行的第一个生命周期函数是app.js文件中的（  ）函数。</br>A.onLaunch B.onShow C.onLoad D.onReady",
+            "answer": "答案：onLaunch"
+        },
+        {
+            "question": "小程序运行后，页面index.js中执行的第一个生命周期函数是（  ）</br>A.onLaunch B.onShow C.onLoad D.onReady",
+            "answer": "答案：onLoad"
+        },
+        {
+            "question": "监听小程序启动或切前台的回调函数是（  ）</br>A.onLaunch B.onShow C.onLoad D.onReady",
+            "answer": "答案：onShow"
+        },
+        {
+            "question": "监听页面初次渲染完成的回调函数是（  ）</br>A.onLoad B.onShow C.onReady D.onHide",
+            "answer": "答案：onReady"
+        },
+        {
+            "question": "页面绑定数据的初始值由（ ）提供？</br>A.data B.onLoad C.onShow D.onReady",
+            "answer": "答案：data"
+        },
+        {
+            "question": "当页面由index切换到me时，首先执行index.js文件中的onHide函数，然后再执行me.js文件中的onLoad函数。（）</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "当me页面显示时点击“切后台”按钮，首先执行me.js文件中的onHide函数，然后再执行app.js文件中的onHide函数</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "（  ）文件是用来对微信小程序进行全局配置的？</br>A.index.json B.app.json C.index.js D.app.js",
+            "answer": "答案：app.json"
+        },
+        {
+            "question": "创建小程序页面时，应该在app.json文件的（   ）属性中进行。</br>A. pages B.window C.tabBar D.networkTimeout",
+            "answer": "答案：pages"
+        },
+        {
+            "question": "tabBar用来配置小程序底部的Tab，它的属性（   ）是tab 的列表，最少2个、最多5个 tab。</br>A.color B.selectedColor C.borderStyle D.list",
+            "answer": "答案：list"
+        },
+        {
+            "question": "list数组对象属性（ ）表示页面路径。</br>A.pagePath B.text C.iconPath D.selectedIconPath",
+            "answer": "答案：pagePath"
+        },
+        {
+            "question": "如果length=3，则以下代码：</br><view wx:if=“{{length > 5}}”>1</view><view wx:elif=“{{length > 2}}”>2</view><view wx:else>3</view>的输出结果为（）</br>A.1 B.2 C.3 D.4",
+            "answer": "答案：2"
+        },
+        {
+            "question": "以下代码：</br><block wx:if=“{{true}}”><view>view1</view><view>view2</view></block>的输出结果为（）</br>A.view1 B.view2 C.view1和view2 D.没有输出",
+            "answer": "答案：view1和view2"
+        },
+        {
+            "question": "（  ）组件能够实现页面导航。</br>A.navigator B.view C.button D.image",
+            "answer": "答案：navigator"
+        },
+        {
+            "question": "navigator组件的（  ）属性表示当前小程序内的跳转链接地址。</br>A.target B.open-type C.delta D.url",
+            "answer": "答案：url"
+        },
+        {
+            "question": "navigator组件属性target的合法值包括（ ）和miniProgram。</br>A.self B.other C.redirect D.switchTab",
+            "answer": "答案：self"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（   ）表示保留当前页面，跳转到应用内的某个页面。</br>A.switchTab B.navigate C.reLaunch D.redirect",
+            "answer": "答案：navigate"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（   ）表示关闭当前页面，跳转到应用内的某个页面。</br>A.switchTab B.navigate C.reLaunch D.redirect",
+            "answer": "答案：redirect"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（   ）表示跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面</br>A.switchTab B.navigate C. reLaunch D.redirect",
+            "answer": "答案：switchTab"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（  ）表示关闭所有页面，打开应用内的某个页面。</br>A.switchTab B.navigate C.reLaunch D.redirect",
+            "answer": "答案：reLaunch"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（   ）表示关闭当前页面，返回上一页面或多级页面。</br>A.switchTab B.reLaunch C.navigateBack D.exit",
+            "answer": "答案：navigateBack"
+        },
+        {
+            "question": "navigator组件属性open-type的合法值（  ）表示当target=“miniProgram”时，退出小程序。</br>A.switchTab B.reLaunch C.navigateBack D.exit",
+            "answer": "答案：exit"
+        },
+        {
+            "question": "在组件上使用 wx:for 控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。数组当前项的下标变量名默认为（  ）</br>A.index B.item C.i D.j",
+            "answer": "答案：index"
+        },
+        {
+            "question": "在组件上使用 wx:for 控制属性绑定一个数组，即可使用数组中各项的数据重复渲染该组件。数组当前项的变量名默认为（  ）</br>A.index B.item C.i D.j",
+            "answer": "答案：item"
+        },
+        {
+            "question": "在wx:for中，使用 （  ）可以指定数组当前元素的变量名。</br>A.wx:for-item B. wx:for-index C. wx:for-i D.wx:for-j",
+            "answer": "答案：wx:for-item"
+        },
+        {
+            "question": "可以将 wx:for 用在（  ）标签上，以渲染一个包含多节点的结构块。</br>A. view B.image C.block D.canvas",
+            "answer": "答案：block"
+        },
+        {
+            "question": "代码：</br><view wx:for=“array”>{{index}}</view的运行结果为（）</br>A.0 B.01 C.012 D.01234",
+            "answer": "答案：01234"
+        },
+        {
+            "question": "</br>以下代码：</br><view wx:for=“array”>{{item}}</view></br>的运行结果为（）</br>A.a B.ar C.arr D.array",
+            "answer": "答案：array"
+        },
+        {
+            "question": "以下代码：</br><view wx:for=“广西机电职业技术学院”>{{item}}</view>的运行结果为（）</br>A.广西 B.广西机电 C.广西机电职业 D.广西机电职业技术学院",
+            "answer": "答案：广西机电职业技术学院"
+        },
+        {
+            "question": "以下代码：</br><view wx:for=“广西机电职业技术学院”>{{num}}</view>的运行结果为（）</br>A.12345678910 B.不输出 C.0123456789 D.广西机电职业技术学院",
+            "answer": "答案：不输出"
+        },
+        {
+            "question": "（  ）组件能够实现轮播图的效果。</br>A.swiper B.switch C.slider D.picker",
+            "answer": "答案：swiper"
+        },
+        {
+            "question": "swiper组件的（  ）属性用于设置轮播图自动切换时间间隔</br>A.interval B. duration C.circular D.vertical",
+            "answer": "答案：interval"
+        },
+        {
+            "question": "switch组件的（  ）属性用于设置该组件是否被选中</br>A.checked B.disabled C.type D.bindchange",
+            "answer": "答案：checked"
+        },
+        {
+            "question": "swiper组件的（  ）属性用于设置是否显示面板指示点</br>A.indicator-dots B.indicator-color C.indicator-active-color D.autoplay",
+            "answer": "答案：indicator-dots"
+        },
+        {
+            "question": "swiper组件的（  ）属性用于设置当前播放页面指示点的颜色</br>A.indicator-dots B.indicator-color C.indicator-active-color D.autoplay",
+            "answer": "答案：indicator-active-color"
+        },
+        {
+            "question": "swiper组件的（  ）属性用于设置轮播图是否自动播放</br>A. indicator-dots B.indicator-color C.indicator-active-color D.autoplay",
+            "answer": "答案：autoplay"
+        },
+        {
+            "question": "swiper组件的（  ）属性用于设置轮播图是否采用衔接滑动</br> A.interval B.duration C.circular D.vertical",
+            "answer": "答案：circular"
+        },
+        {
+            "question": "swiper组件的（ ）属性用于设置轮播图滑动动画时长</br>A:interval B:duration C:circular D:vertical",
+            "answer": "答案：duration"
+        },
+        {
+            "question": "image组件不支持（ ）图片格式。</br>A.JPG B.PNG C.SVG D.BMP",
+            "answer": "答案：BMP"
+        },
+        {
+            "question": "image组件的（  ）属性用于设置图片路径。</br>A.source B. resource C.src D.mode",
+            "answer": "答案：src"
+        },
+        {
+            "question": "image组件的（  ）属性用于设置图片的显示模式。</br>A.source B.resource C.src D.mode",
+            "answer": "答案：mode"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，不保持纵横比缩放图片，使图片的宽高完全拉伸至填满 image 元素。</br>A.scaleToFill B.aspectFit C.aspectFill D.widthFix",
+            "answer": "答案：scaleToFill"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，保持纵横比缩放图片，只保证图片的短边能完全显示出来。</br>A.scaleToFill B.aspectFit C.aspectFill D.widthFix",
+            "answer": "答案：aspectFill"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，宽度不变，高度自动变化，保持原图宽高比不变。</br>A.scaleToFill B.aspectFit C.aspectFill D.widthFix",
+            "answer": "答案：widthFix"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，保持纵横比缩放图片，使图片的长边能完全显示出来。也就是说，可以完整地将图片显示出来。</br>A.scaleToFill B.aspectFit C.aspectFill D.widthFix",
+            "answer": "aspectFit"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，不缩放图片，只显示图片的左上边区域。</br>A.center B.left C.right D.top left",
+            "answer": "答案：top left"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，不缩放图片，只显示图片的中间区域。</br>A.center B.left C.right D.top left",
+            "answer": "答案：center"
+        },
+        {
+            "question": "当image组件的mode值等于（  ）时，不缩放图片，只显示图片的右下边区域。</br>A.top left B.top right C.bottom left D.bottom right",
+            "answer": "答案：bottom right"
+        },
+        {
+            "question": "this.setData()函数可以修改在（ ）中初始化的绑定数据的值</br>A:data B:Page C:App D:this",
+            "answer": "答案：data"
+        },
+        {
+            "question": "setData()函数用于将数据从逻辑层发送到视图层，同步改变对应的 this.data 的值。</br>A. 正确 B. 错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "setData()函数用于将数据从逻辑层发送到视图层，同步改变对应的this.data的值（</br>A:正确 B:错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "事件是视图层到逻辑层的通讯方式，它可以将用户的行为反馈到视图层进行处理。</br>A. 正确 B. 错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "事件可以绑定在组件上，当触发事件，就会执行逻辑层中对应的事件处理函数。事件对象可以携带额外信息，如 id, dataset, touches。</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "定义模板时，要使用（ ）属性作为模板的名字。</br>A.data B.name C.is D.import",
+            "answer": "答案：name"
+        },
+        {
+            "question": "使用模板时，要使用（  ）属性作为模板的名字。</br>A.data B.name C.is D.import",
+            "answer": "答案：is"
+        },
+        {
+            "question": "使用模板时，要通过（  ）属性将模板需要的数据传入</br>A.data B.name C.is D.import",
+            "answer": "答案：data"
+        },
+        {
+            "question": "利用（  ）可以引用目标文件中定义的template。</br>A.data B.name C.is D.import",
+            "answer": "答案：import"
+        },
+        {
+            "question": "假设有3个WXML文件A、B和C，C import B，B import A，在C中可以使用B定义的template，在B中可以使用A定义的template，但是C不能使用A定义的template</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "WXML 提供两种文件引用方式：import和（）</br>A.data B.name C.src D.include",
+            "answer": "答案：include"
+        },
+        {
+            "question": "（  ）只能引用文件中定义的template，不能使用该文件中的其他内容。</br>A.include B.name C.src D.import",
+            "answer": "答案：import"
+        },
+        {
+            "question": "（  ）可以将该引用文件中除了template和wxs 之外的整个代码引入，相当于将目标文件中的代码拷贝到引用的位置。</br>A.include B.name C.src D.import",
+            "answer": "答案：include"
+        },
+        {
+            "question": "在index页面文件夹中添加a.wxml文件，那么a.wxml文件不能使用在index.wxss文件中定义样式</br>A. 正确 B. 错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "radio组件必须和（ ）组件一起使用。</br>A. checkbox B.radio-group C.checkbox-group D.view",
+            "answer": "答案：radio-group"
+        },
+        {
+            "question": "下面的说法正确的是（ ）</br>A.radio组件有bindchange属性 B.checkbox组件有bindchange属性 C.radio-group组件有bindchange属性 D.checkbox-group组件没有bindchange属性",
+            "answer": "答案：radio-group组件有bindchange属性"
+        },
+        {
+            "question": "决定radio组件是否被选中的属性是（ ）</br>A.value B.checked C.disabled D.color",
+            "answer": "答案：checked"
+        },
+        {
+            "question": "radio组件的（）属性是它的标识，radio-group的 change 事件会携带radio的这个标识</br>A.value B.checked C.disabled D.color",
+            "answer": "答案：value"
+        },
+        {
+            "question": "checkbox组件必须和（ ）组件一起使用</br>A:checkbox B:radio-group C:checkbox-group D:view",
+            "answer": "答案：checkbox-group"
+        },
+        {
+            "question": "checkbox-group组件change事件的返回值是（ ）</br>A.string类型的变量 B.number类型的变量 C.string类型的数组 D.number类型的数组",
+            "answer": "string类型的数组"
+        },
+        {
+            "question": "radio-group组件change事件的返回值是（ ）</br>A.string类型的变量 B.number类型的变量 C.string类型的数组 D.number类型的数组",
+            "answer": "string类型的变量"
+        },
+        {
+            "question": "form组件的提交事件是由（  ）组件来实现的。</br>A.form B.button C.view D.image",
+            "answer": "答案：button"
+        },
+        {
+            "question": "form组件的提交事件函数是由（   ）组件绑定的？</br>A.form B.button C.view D.image",
+            "answer": "答案：button"
+        },
+        {
+            "question": "要实现form组件的“提交”事件，其内部必须有一个属性form-type='（  ）'的按钮</br>A.submit B.reset C.button D.form",
+            "answer": "答案：submit"
+        },
+        {
+            "question": "要实现form组件的“重置”事件，其内部必须有一个属性form-type='（ ）'的按钮</br>A.submit B.reset C.button D.form",
+            "answer": "答案：form"
+        },
+        {
+            "question": "如果要获取form组件内部input组件的value值，必须指定input组件的（  ）属性。</br>A.id B.value C.name D.placeholder",
+            "answer": "答案：name"
+        },
+        {
+            "question": "input组件的value值是（   ）类型？</br>A.number B.string C.boolean D.any",
+            "answer": "答案：string"
+        },
+        {
+            "question": "checkbox组件的（  ）属性是它的标识，checkbox-group的 change 事件会携带checkbox的这个标识。</br>A. value B.checked C.disabled D.color",
+            "answer": "答案：value"
+        },
+        {
+            "question": "决定checkbox组件是否被禁用的属性是（ ）</br>A. value B.checked C.disabled D.color",
+            "answer": "答案：disabled"
+        },
+        {
+            "question": "checkbox-group组件change事件的返回值是（ ）</br>A. string类型的变量 B. number类型的变量 C.string类型的数组 D.number类型的数组",
+            "answer": "答案：string类型的数组"
+        },
+        {
+            "question": "radio-group组件change事件的返回值是（ ）</br>A.string类型的变量 B.number类型的变量 C.string类型的数组 D.number类型的数组",
+            "answer": "答案：string类型的数组"
+        },
+        {
+            "question": "通过滑动slider组件的滑块来改变该组件的（ ）属性值</br>A.min B.max C.step D.value",
+            "answer": "答案：value"
+        },
+        {
+            "question": "slider组件value属性值的类型是（ ）类型</br>A.string B.number C.color D.boolean",
+            "answer": "答案：number"
+        },
+        {
+            "question": "通过slider组件的（ ）属性来设置是否显示它的value值。</br>A. block-size B.block-color C.show-value D.bindchange",
+            "answer": "答案：show-value"
+        },
+        {
+            "question": "通过slider组件的（  ）属性来设置组件滑块的大小。</br>A.block-size B.block-color C.show-value D.bindchange",
+            "answer": "答案：block-size"
+        },
+        {
+            "question": "通过slider组件的（  ）属性来设置组件滑块移动过程中发生的变化。</br>A.block-color B.show-value C.bindchange D.bingdchanging",
+            "answer": "答案：bingdchanging"
+        },
+        {
+            "question": "通过slider组件的（  ）属性来设置移动该组件滑块的步长。</br>A.min B.max C.step D.value",
+            "answer": "答案：step"
+        },
+        {
+            "question": "通过slider组件的（  ）属性来设置滑块滑过区域的颜色。</br>A.activeColor B.backgroundColor C.block-size D.block-color",
+            "answer": "答案：activeColor"
+        },
+        {
+            "question": "switch组件的type属性的有效值包括（）</br>A.switch和checkbox B.radio和checkbox C.switch和radio D.switch和checked",
+            "answer": "答案：switch和checkbox"
+        },
+        {
+            "question": "（ ）组件是从屏幕底部弹起的滚动选择器</br>A. slider B.switch C.swiper D.picker",
+            "answer": "答案：picker"
+        },
+        {
+            "question": "picker组件支持的选择器类型有（  ）</br>A.普通选择器、多列选择器、时间选择器、日期选择器、省市区选择器 B.只有时间选择器、日期选择器 C.只有普通选择器、多列选择器 D.只有时间选择器、日期选择器、省市区选择器",
+            "answer": "答案：A.普通选择器、多列选择器、时间选择器、日期选择器、省市区选择器"
+        },
+        {
+            "question": "picker组件利用（  ）属性设置选择器的类型？</br>A. range B. range-key C.value D.mode",
+            "answer": "答案：mode"
+        },
+        {
+            "question": "普通选择器和多列选择器的（  ）属性是数组类型，用于设置选择的内容。</br>A.range B.range-key C.value D.bindchange",
+            "answer": "答案：range"
+        },
+        {
+            "question": "日期选择器的（ ）属性表示选择器的粒度，有效值为 year, month, day，默认值为day。</br>A.value B.start C.end D.fields",
+            "answer": "答案：fields"
+        },
+        {
+            "question": "设置picker为省市区选择器时，其属性mode的值应为（  ）。</br>A.selector B.multiSelector C.date D.region",
+            "answer": "答案：region"
+        },
+        {
+            "question": "设置picker为普通选择器时，其属性mode的值应为（ ）。</br>A.selector B.multiSelector C.date D.region",
+            "answer": "答案：selector"
+        },
+        {
+            "question": "函数（   ）用于设定一个定时器，在定时到期以后执行注册的回调函数。</br>A.number setTimeout(function callback, number delay, any rest) B.clearTimeout(number timeoutID) C.number setInterval(function callback, number delay, any rest) D.clearInterval(number intervalID)",
+            "answer": "答案：number setTimeout(function callback, number delay, any rest)"
+        },
+        {
+            "question": "函数（   ）用于取消由 setTimeout 设置的定时器。</br>A.number setTimeout(function callback, number delay, any rest) B.clearTimeout(number timeoutID) C.number setInterval(function callback, number delay, any rest) D.clearInterval(number intervalID)",
+            "answer": "答案：clearTimeout(number timeoutID)"
+        },
+        {
+            "question": "函数（   ）用于设定一个定时器，按照指定的周期（以毫秒计）来执行注册的回调函数。</br>A.number setTimeout(function callback, number delay, any rest) B.clearTimeout(number timeoutID) C.number setInterval(function callback, number delay, any rest)  D.clearInterval(number intervalID)",
+            "answer": "答案：number setInterval(function callback, number delay, any rest)"
+        },
+        {
+            "question": "函数（   ）用于取消由 setInterval 设置的定时器。</br>A.number setTimeout(function callback, number delay, any rest) B.clearTimeout(number timeoutID) C.number setInterval(function callback, number delay, any rest) D.clearInterval(number intervalID)",
+            "answer": "答案：clearInterval(number intervalID)"
+        },
+        {
+            "question": "API函数（ ）用于将数据异步存储在本地缓存指定的 key 中。</br>A.wx.setStorage(Object object) B.wx.setStorageSync(string key, any data) C.wx.getStorage(Object object) D.any wx.getStorageSync(string key)",
+            "answer": "答案：wx.setStorage(Object object)"
+        },
+        {
+            "question": "API函数（  ）用于从本地缓存中同步移除指定 key对应的数据。</br>A.wx.getStorageInfo(Object object) B.Object wx.getStorageInfoSync() C.wx.removeStorage(Object object) D.wx.removeStorageSync(string key)",
+            "answer": "答案：wx.removeStorageSync(string key)"
+        },
+        {
+            "question": "API函数（  ）用于从本地缓存中异步清除所有数据。</br>A. wx.removeStorage(Object object) B.wx.removeStorageSync(string key) C.wx.clearStorage(Object object) D.wx.clearStorageSync()",
+            "answer": "答案：wx.removeStorage(Object object)"
+        },
+        {
+            "question": "函数wx.setStorage(Object object)的参数属性（）表示本地缓存中指定的 key。</br>A. key B.data C.success D.fail",
+            "answer": "答案：key"
+        },
+        {
+            "question": "函数Object wx.getStorageInfoSync()的返回值属性object.success(Object res) 的参数属性（ ）表示当前占用空间的大小。</br>A.Keys B.data C.currentSize D.limitSize",
+            "answer": "答案：currentSize"
+        },
+        {
+            "question": "对以下代码片段作用的最准确描述是（ ）wx.setStorage({key: “key”,data: “value”})</br>A. 将数据value异步存储在本地缓存指定的 key 中 B.将数据data异步存储在本地缓存指定的 key 中 C.将数据value同步存储在本地缓存指定的 key 中 D.将数据data同步存储在本地缓存指定的 key 中",
+            "answer": "答案：将数据value异步存储在本地缓存指定的 key"
+        },
+        {
+            "question": "对以下代码片段作用的最准确描述是（ ）try{wx.setStorageSync('key','value')}catch (e) {}</br>A.将数据value异步存储在本地缓存指定的 key 中 B.将数据data异步存储在本地缓存指定的 key 中 C.将数据value同步存储在本地缓存指定的 key 中 D.将数据data同步存储在本地缓存指定的 key 中",
+            "answer": "答案：将数据value同步存储在本地缓存指定的 key"
+        },
+        {
+            "question": "对以下代码片段作用的最准确描述是（ ）try{var value =wx.getStorageSync('key')if (value){// Do something with return value}}catch (e){// Do something when catch error}</br>A.从本地缓存中异步获取指定 key 的内容，并把该内容存储在data中。 B.从本地缓存中同步获取指定 key 的内容，并把该内容存储在data中。 C.从本地缓存中异步获取指定 key 的内容，并把该内容存储在value中。 D.从本地缓存中同步获取指定 key 的内容，并把该内容存储在value中",
+            "answer": "答案：从本地缓存中同步获取指定 key 的内容，并把该内容存储在value中"
+        },
+        {
+            "question": "以下代码片段，如果成功运行并点击菜单项A，则在console面板中显示的结果为（ ）wx.showActionSheet({itemList: ['A','B','C'],success (res){console.log(res.tapIndex)},fail(res){console.log(res.errMsg)}})</br>A.0 B.1 C.2 D.3",
+            "answer": "答案：0"
+        },
+        {
+            "question": "【轮播图和开关选择器】一、作业内容参考【轮播图和开关选择器】编写一个小程序，利用轮播图和开关选择器实现相应的功能。二、作业要求将案例代码（代码文本）和小程序的运行结果（图片）粘贴在下面相应的位置，将Word文档另存为PDF文件，并将PDF文件和小程序工程文件夹放在同一个文件夹中压缩上交。三、作业及评分标准1. 案例代码（70分）要求：将带有文件名称的案例代码粘贴到此处，代码文字大小适中，确保提交后文字清晰可见。（注意：每个文件名称要在代码前面加粗注明）案例代码评分标准：包含知识点：轮播图和开关选择器，少一个扣10分。代码不清晰扣5分代码不正确酌情扣分"
+        },
+        {
+            "question": "怎么检查用户是否已经登录。(问答题) "
+        },
+        {
+            "question": "小程序目录结构中，（）文件是应用配置文件</br>A.app.js B.app.json C.project.config.js D.index.json",
+            "answer": "答案：app.json"
+        },
+        {
+            "question": "微信开发者工具中,调试器中的（）可以查看网络请求信息。</br>A.Console面板 B.Network面板 C.AppData面板 D.Sources面板",
+            "answer": "答案：Network面板"
+        },
+        {
+            "question": "下面选项中，关于选择器的说法正确的是（）。(多选题) </br>A.element 选择器，可以通过组件名获取元素 B.class 选择器，可以通过类名获取元素 C.id选择器可以通过id属性获取元素",
+            "answer": "答案：A.element 选择器，可以通过组件名获取元素 B.class 选择器，可以通过类名获取元素 C.id选择器可以通过id属性获取元素"
+        },
+        {
+            "question": "下面选项中，属于微信小程序页面组件的有()。(多选题) </br>A.<div> B.<form> C.<input> D.<view>",
+            "answer": "答案：B.<form> C.<input> D.<view>"
+        },
+        {
+            "question": "WXSS 具有CSS大部分特性,并在此基础上做了一些扩充和修改。</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "微信小程序页面组件开发中的<view>组件,类似于HTML5中的<div>标签。</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "input 标签的(1)属性表示输入的类型，如文本、数字、身份证等。(填空题) ",
+            "answer": "答案：type"
+        },
+        {
+            "question": "在微信小程序中，wx.request()接口配置对象中method表示(1)(填空题)",
+            "answer": "答案：HTTP请求方法"
+        },
+        {
+            "question": "微信小程序中,实现网络请求的接口是(1)(填空题) ",
+            "answer": "答案：wx.request"
+        },
+        {
+            "question": "微信小程序的页面结构配置中index.json文件高于app.json文件的级别。</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "微信小程序页面样式文件中其级别app.wxss文件高于index.wxss文件。</br>A. 正确 B. 错误",
+            "answer": "答案：错误"
+        },
+        {
+            "question": "在微信小程序的index.json文件中(1)字段用来配置导航栏的背景颜色。(填空题)",
+            "answer": "答案：navigationBarBackgroundColor"
+        },
+        {
+            "question": "在微信小程序的index.json文件中(1)字段用来配置导航栏标题的颜色。(填空题)",
+            "answer": "答案：navigationBarTextStyle"
+        },
+        {
+            "question": "轮播图是通过(1)组件实现的(填空题)",
+            "answer": "答案：swiper"
+        },
+        {
+            "question": "picker选择器用(1)属性来区分(填空题)",
+            "answer": "答案：mode"
+        },
+        {
+            "question": "swiper-item组件只可以放在swiper组件中</br>A. 正确 B. 错误",
+            "answer": "答案：正确"
+        },
+        {
+            "question": "下列关于数据缓存的说法，错误的是（）(多选题) </br>A. wx.geLStorage().从本地缓存中同步获取指定key内容 B.wx.removeStorageSync(),以同步的方式从本地缓存中移除指定key C.wx.setStorage(),将教据异步存储在本地缓存指定的key中 D.wx.getStorageSync().从本地缓存中异步获取指定key的内容",
+            "answer": "答案：A. wx.geLStorage().从本地缓存中同步获取指定key内容 C.wx.setStorage(),将教据异步存储在本地缓存指定的key中 D.wx.getStorageSync().从本地缓存中异步获取指定key的内容"
+        },
+        {
+            "question": "下列关于wx.showModal()参数的说法，正确的是()(多选题)</br>A.title:提示的标题 B.content:提示的内容 C. cancel:是否显示取消按钮 D.confirmText:确认按钮的文字",
+            "answer": "答案：A.title:提示的标题 B.content:提示的内容 D.confirmText:确认按钮的文字"
+        },
+        {
+            "question": "微信登录接口服务校验成功后会返回(1)和openid。(填空题)",
+            "answer": "答案：session_key"
+        },
+        {
+            "question": "小程序通过(1)接口获取登录凭证code。(填空题)",
+            "answer": "答案：wx.login"
+        },
+        {
+            "question": "简述wx.navigateTo()和wx.redirectTo()跳转方式的区别。(问答题)（不要照着抄，自己看着功能说明写）",
+            "answer": "功能说明：</br>wx.navigateTo():保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面。使用 wx.navigateBack 可以返回到原页面。小程序中页面栈最多十层。</br>wx.redirectTo():关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页面。"
+        }
+    ]
+}
